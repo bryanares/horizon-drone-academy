@@ -21,7 +21,7 @@ export const drones = [
         id: 'videography',
         name: 'Aerial Videography',
         description: 'Create cinematic aerial videos with advanced filming techniques.',
-        image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop',
+        image: 'https://images.pexels.com/photos/34310168/pexels-photo-34310168.jpeg',
         features: ['Cinematic Movements', 'Storytelling', 'Post-Production', 'Color Grading'],
         duration: '32 hours',
         level: 'Intermediate to Advanced'

@@ -87,7 +87,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                src="https://images.pexels.com/photos/34310168/pexels-photo-34310168.jpeg"
                 alt="Drone pilot training session"
                 className="w-full h-48 object-cover"
               />
@@ -131,7 +131,7 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                src="https://images.pexels.com/photos/34310168/pexels-photo-34310168.jpeg"
                 alt="Aerial videography production"
                 className="w-full h-48 object-cover"
               />
