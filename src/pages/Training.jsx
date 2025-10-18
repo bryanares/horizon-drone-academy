@@ -24,7 +24,7 @@ const Training = () => {
       id: 'videography',
       name: 'Aerial Videography',
       description: 'Create cinematic aerial videos with advanced filming techniques. Master smooth movements, storytelling, and professional post-production workflows.',
-      image: 'https://images.pexels.com/photos/34310168/pexels-photo-34310168.jpeg',
+      image: 'https://images.pexels.com/photos/2100075/pexels-photo-2100075.jpeg',
       features: ['Cinematic Movements', 'Storytelling', 'Post-Production', 'Color Grading'],
       duration: '32 hours',
       level: 'Intermediate to Advanced'
@@ -33,7 +33,7 @@ const Training = () => {
       id: 'assembly',
       name: 'Drone Assembly',
       description: 'Build and customize drones from components to finished aircraft. Understand electronics, motors, flight controllers, and frame construction.',
-      image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop',
+      image: 'https://images.pexels.com/photos/19895780/pexels-photo-19895780.jpeg',
       features: ['Electronics', 'Motor Systems', 'Flight Controllers', 'Frame Construction'],
       duration: '28 hours',
       level: 'Intermediate'
@@ -42,7 +42,7 @@ const Training = () => {
       id: 'maintenance',
       name: 'Drone Maintenance',
       description: 'Keep your drone in perfect condition with professional maintenance techniques. Learn troubleshooting, component replacement, and preventive care.',
-      image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop',
+      image: 'https://images.pexels.com/photos/810493/pexels-photo-810493.jpeg',
       features: ['Troubleshooting', 'Component Replacement', 'Preventive Care', 'Diagnostic Tools'],
       duration: '20 hours',
       level: 'All Levels'
@@ -51,7 +51,7 @@ const Training = () => {
       id: 'safety',
       name: 'Flight Safety Training',
       description: 'Essential safety protocols and emergency procedures for safe drone operations. Learn weather assessment, airspace regulations, and risk management.',
-      image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop',
+      image: 'https://images.pexels.com/photos/442587/pexels-photo-442587.jpeg',
       features: ['Safety Protocols', 'Airspace Regulations', 'Risk Management', 'Emergency Procedures'],
       duration: '16 hours',
       level: 'All Levels'

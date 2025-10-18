@@ -131,7 +131,7 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/34310168/pexels-photo-34310168.jpeg"
+                src="https://images.pexels.com/photos/2100075/pexels-photo-2100075.jpeg"
                 alt="Aerial videography production"
                 className="w-full h-48 object-cover"
               />
@@ -153,7 +153,7 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                src="https://images.pexels.com/photos/19895780/pexels-photo-19895780.jpeg"
                 alt="Drone assembly workshop"
                 className="w-full h-48 object-cover"
               />
@@ -175,7 +175,7 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                src="https://images.pexels.com/photos/810493/pexels-photo-810493.jpeg"
                 alt="Drone maintenance workshop"
                 className="w-full h-48 object-cover"
               />
@@ -197,7 +197,7 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                src="https://images.pexels.com/photos/442587/pexels-photo-442587.jpeg"
                 alt="Flight safety training"
                 className="w-full h-48 object-cover"
               />
