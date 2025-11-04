@@ -2,6 +2,7 @@ import React from 'react';
 import droneTrainingImg from '../assets/images/instructor1.jpg';
 import droneTraining2Img from '../assets/images/trainer-og.jpg';
 import mission from '../assets/images/mission.jpg';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -89,16 +90,18 @@ const About = () => {
 
             {/* CTA Section */}
             <section className="bg-sky-900 py-16 text-center text-white">
+                <div>
                 <h2 className="text-3xl font-bold mb-4">Ready to Take Flight?</h2>
                 <p className="text-lg mb-6">
                     Join our professional drone training programs and become a certified drone pilot.
                 </p>
-                <a
-                    href="/training" // Update this link with your actual route
+                <Link
+                    to="/training" // Update this link with your actual route
                     className="inline-block bg-white text-sky-900 font-semibold px-8 py-3 rounded-full shadow-md hover:bg-sky-100 transition duration-300"
                 >
                     View Training Courses
-                </a>
+                </Link>
+                </div>
             </section>
         </div>
     );
