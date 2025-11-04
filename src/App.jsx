@@ -8,6 +8,7 @@ import Profile from './pages/Profile';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import ScrollToTop from './components/ScrollToTop';
+import AboutPage from './pages/AboutUs';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/training" element={<Training />} />
             <Route path="/booking/:droneId" element={<Booking />} />
             <Route path="/profile" element={<Profile />} />
