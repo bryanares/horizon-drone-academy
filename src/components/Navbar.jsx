@@ -69,6 +69,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden bg-blue-800 px-4 pb-3 space-y-2">
             {[{ to: "/", label: "Home" },
+            { to: "/about", label: "About us" },
             { to: "/training", label: "Drone Training" }].map(({ to, label }) => (
               <Link
                 key={to}
