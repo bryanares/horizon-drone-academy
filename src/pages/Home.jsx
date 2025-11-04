@@ -37,7 +37,6 @@ const Home = () => {
                 >
                   Start Your Training
                 </Link>
-
               </div>
             </div>
           </div>
@@ -55,10 +54,19 @@ const Home = () => {
               <p className="text-lg text-gray-600 mb-6">
                 Horizon Drone Academy is a pioneering institution in unmanned aerial systems, recognized as one of the most trusted names in the drone and aviation training industry. With over a decade of experience, we’ve equipped thousands of students with the skills and certifications needed to excel in the rapidly growing drone sector.
               </p>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 mb-6">
                 Backed by state-of-the-art technology and a commitment to safety and excellence, we empower individuals and organizations to harness the full potential of drone technology confidently and effectively.
               </p>
+              
+              {/* Read More Link */}
+              <Link
+                to="/about"
+                className="inline-block text-blue-900 font-semibold hover:text-blue-700 transition-colors text-sm"
+              >
+                Read More →
+              </Link>
             </div>
+
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
@@ -155,7 +163,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
