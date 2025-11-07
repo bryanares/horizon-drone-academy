@@ -14,10 +14,10 @@ const About = () => {
                     <div>
                         <h5 className="text-sky-600 font-semibold uppercase tracking-wide">About Us</h5>
                         <h2 className="text-4xl font-bold text-gray-900 mt-3 mb-6">
-                            Horizon Drone Academy
+                            Horizon Aviation Adventure
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            Horizon Drone Academy is a pioneering institution in unmanned aerial systems, recognized as one of the most trusted names in the drone and aviation training industry. With over a decade of experience, we’ve equipped thousands of students with the skills and certifications needed to excel in the rapidly growing drone sector.
+                            Horizon Aviation Adventure is a pioneering institution in unmanned aerial systems, recognized as one of the most trusted names in the drone and aviation training industry. With over a decade of experience, we’ve equipped thousands of students with the skills and certifications needed to excel in the rapidly growing drone sector.
                         </p>
                         <p className="text-gray-700 leading-relaxed">
                             Backed by state-of-the-art technology and a commitment to safety and excellence, we empower individuals and organizations to harness the full potential of drone technology confidently and effectively.
@@ -83,7 +83,7 @@ const About = () => {
                         How It All Started
                     </h2>
                     <p className="max-w-3xl mx-auto text-gray-700 leading-relaxed text-base">
-                        Horizon Drone Academy began with a vision to make drone technology accessible and beneficial to everyone. Over the years, we’ve grown into a fully accredited drone training center, trusted by individuals, corporates, and government institutions alike. Our story is one of innovation, passion, and commitment to creating a future where drone technology transforms industries and empowers communities.
+                        Horizon Aviation Adventure began with a vision to make drone technology accessible and beneficial to everyone. Over the years, we’ve grown into a fully accredited drone training center, trusted by individuals, corporates, and government institutions alike. Our story is one of innovation, passion, and commitment to creating a future where drone technology transforms industries and empowers communities.
                     </p>
                 </div>
             </section>
@@ -91,16 +91,16 @@ const About = () => {
             {/* CTA Section */}
             <section className="bg-sky-900 py-16 text-center text-white">
                 <div>
-                <h2 className="text-3xl font-bold mb-4">Ready to Take Flight?</h2>
-                <p className="text-lg mb-6">
-                    Join our professional drone training programs and become a certified drone pilot.
-                </p>
-                <Link
-                    to="/training" // Update this link with your actual route
-                    className="inline-block bg-white text-sky-900 font-semibold px-8 py-3 rounded-full shadow-md hover:bg-sky-100 transition duration-300"
-                >
-                    View Training Courses
-                </Link>
+                    <h2 className="text-3xl font-bold mb-4">Ready to Take Flight?</h2>
+                    <p className="text-lg mb-6">
+                        Join our professional drone training programs and become a certified drone pilot.
+                    </p>
+                    <Link
+                        to="/training"
+                        className="inline-block bg-white text-sky-900 font-semibold px-8 py-3 rounded-full shadow-md hover:bg-sky-100 transition duration-300"
+                    >
+                        View Training Courses
+                    </Link>
                 </div>
             </section>
         </div>

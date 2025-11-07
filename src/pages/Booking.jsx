@@ -17,7 +17,7 @@ const Booking = () => {
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Drone Not Found</h1>
           <Link
             to="/training"
-            className="text-blue-900 font-semibold hover:text-blue-700 transition-colors"
+            className="text-sky-600 font-normal hover:text-sky-400 transition-colors"
           >
             Back to Training
           </Link>
@@ -38,18 +38,18 @@ const Booking = () => {
                 className="w-full h-64 md:h-full object-cover"
               />
             </div>
-            
+
             <div className="md:w-1/2 p-8">
-              <h1 className="text-2xl font-bold text-gray-900 mb-4">
+              <h1 className="text-2xl font-medium text-gray-900 mb-4">
                 Book Training: {drone.name}
               </h1>
-              <p className="text-gray-600 mb-6">
+              <p className="font-normal text-gray-600 mb-6">
                 {drone.description}
               </p>
-              
+
               <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Features:</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <h3 className="text-lg font-medium text-gray-900 mb-2">Features:</h3>
+                <ul className="font-light text-sm text-gray-600 space-y-1">
                   {drone.features.map((feature, index) => (
                     <li key={index} className="flex items-center">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
@@ -58,10 +58,10 @@ const Booking = () => {
                   ))}
                 </ul>
               </div>
-              
+
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="name" className="block text-sm font-normal text-gray-700 mb-1">
                     Full Name
                   </label>
                   <input
@@ -69,13 +69,13 @@ const Booking = () => {
                     id="name"
                     name="name"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
                     placeholder="Enter your full name"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="email" className="block text-sm font-normal text-gray-700 mb-1">
                     Email Address
                   </label>
                   <input
@@ -83,13 +83,13 @@ const Booking = () => {
                     id="email"
                     name="email"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
                     placeholder="Enter your email"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="date" className="block text-sm font-normal text-gray-700 mb-1">
                     Preferred Date
                   </label>
                   <input
@@ -97,19 +97,19 @@ const Booking = () => {
                     id="date"
                     name="date"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="time" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="time" className="block text-sm font-normal text-gray-700 mb-1">
                     Preferred Time
                   </label>
                   <select
                     id="time"
                     name="time"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
                   >
                     <option value="">Select a time</option>
                     <option value="09:00">9:00 AM</option>
@@ -121,17 +121,17 @@ const Booking = () => {
                     <option value="16:00">4:00 PM</option>
                   </select>
                 </div>
-                
+
                 <div className="flex space-x-4 pt-4">
                   <button
                     type="submit"
-                    className="flex-1 bg-blue-900 text-white py-3 px-4 rounded-md font-semibold hover:bg-blue-800 transition-colors"
+                    className="flex-1 bg-sky-600 text-white py-3 px-4 rounded-full font-medium hover:bg-sky-400 transition-colors"
                   >
                     Submit Booking
                   </button>
                   <Link
                     to="/training"
-                    className="flex-1 bg-gray-300 text-gray-700 py-3 px-4 rounded-md font-semibold hover:bg-gray-400 transition-colors text-center"
+                    className="flex-1 bg-gray-300 text-gray-700 py-3 px-4 rounded-full font-medium hover:bg-gray-400 transition-colors text-center"
                   >
                     Back to Training
                   </Link>

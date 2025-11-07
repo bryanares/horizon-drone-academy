@@ -69,10 +69,10 @@ const Training = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="font-normal text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Drone Training Programs
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="font-light text-lg text-gray-600 max-w-3xl mx-auto">
             Led by certified instructors with backgrounds in aviation, engineering, and data analysis,
             we provide a holistic learning experience that bridges theory with real-world, hands-on practice.
           </p>
@@ -88,10 +88,10 @@ const Training = () => {
               />
 
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-2xl font-medium text-gray-900 mb-2">
                   {program.name}
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="font-light text-base text-gray-600 mb-4">
                   {program.description}
                 </p>
 
@@ -100,7 +100,7 @@ const Training = () => {
                     <span>Duration: {program.duration}</span>
                     <span>Level: {program.level}</span>
                   </div>
-                  <h4 className="text-sm font-medium text-gray-900 mb-2">Key Features:</h4>
+                  <h4 className="text-l font-medium text-gray-900 mb-2">Key Features:</h4>
                   <ul className="text-sm text-gray-600 space-y-1">
                     {program.features.map((feature, index) => (
                       <li key={index} className="flex items-center">
@@ -113,7 +113,7 @@ const Training = () => {
 
                 <Link
                   to={`/booking/${program.id}`}
-                  className="inline-block w-full bg-blue-900 text-white text-center py-3 px-4 rounded-md font-semibold hover:bg-blue-800 transition-colors"
+                  className="inline-block w-full bg-sky-600 text-gray-50 text-center py-3 px-4 rounded-full font-normal hover:bg-sky-400 transition-colors"
                 >
                   Book Training
                 </Link>
@@ -123,12 +123,12 @@ const Training = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">
+          <p className="font-normal text-gray-600 mb-4">
             Not sure which program is right for you?
           </p>
           <Link
             to="/"
-            className="text-blue-900 font-semibold hover:text-blue-700 transition-colors"
+            className="text-sky-600 font-semibold hover:text-sky-400 transition-colors"
           >
             Contact us for personalized guidance
           </Link>
