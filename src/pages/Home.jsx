@@ -63,7 +63,7 @@ const Home = () => {
                 to="/about"
                 className="inline-block text-sky-600 font-semibold hover:text-sky-400 transition-colors text-sm"
               >
-                Read More →
+                Discover More →
               </Link>
             </div>
 
@@ -91,12 +91,13 @@ const Home = () => {
             </p>
             <p className="font-light text-lg text-gray-600">
 
-              Join our 5-week drone adventure program packed with hands-on training, thrilling flights, innovation and unforgettable experiences.
+              Led by certified instructors with backgrounds in aviation, engineering, and data analysis,
+              we provide a holistic learning experience that bridges theory with real-world, hands-on practice.
             </p>
 
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               <img
                 src={droneTrainingImg}
@@ -105,10 +106,10 @@ const Home = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-normal text-gray-900 mb-2">
-                  Remote Pilot Training
+                  Remote Pilot Licence (Multi-Rotor Rating)
                 </h3>
                 <p className="font-light text-gray-600 mb-4">
-                  Learn to operate drones safely and professionally with our comprehensive training programs. Master flight controls, navigation, and emergency procedures.
+                  The Remote Drone Pilot Training (Multi-Rotor Rating) program equips trainees with the skills and certification required to operate drones for commercial purposes. This license is essential to fly drones outside designated flying zones, in compliance with aviation regulations.
                 </p>
                 <Link
                   to="/training#pilot-training"
@@ -149,10 +150,10 @@ const Home = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-normal text-gray-900 mb-2">
-                  Drone Maintenance
+                  Advanced Drone Program
                 </h3>
                 <p className="font-light text-gray-600 mb-4">
-                  Master drone maintenance and repair techniques to keep your equipment in top condition. Learn troubleshooting, component replacement, and preventive care.
+                  Join our Advanced Holiday Drone Program to elevate your drone skills. This intensive 3-week course covers advanced flight techniques, and innovation projects designed for young enthusiasts eager to push their limits.
                 </p>
                 <Link
                   to="/training#maintenance"
