@@ -46,12 +46,12 @@ const Footer = () => {
           <div>
             <h4 className="text-md font-normal mb-3">Our Services</h4>
             <ul className="space-y-2 text-gray-300 text-sm font-light">
-              <li>Drone Pilot Training</li>
-              <li>Drone Photography</li>
-              <li>Aerial Videography</li>
-              <li>Drone Assembly</li>
-              <li>Drone Maintenance</li>
-              <li>Flight Safety Training</li>
+              <li>Holiday Drone Program</li>
+              <li>Advanced Drone Program</li>
+              <li>Hobbyist Licence</li>
+              <li>Remote Pilot Licence (Multi-Rotor Rating)</li>
+              <li>Remote Pilot Licence (Fixed Wing Rating)</li>
+              <li>Specialized Training - Agriculture Rating</li>
             </ul>
           </div>
         </div>
