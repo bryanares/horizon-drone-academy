@@ -105,7 +105,7 @@ const Home = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-normal text-gray-900 mb-2">
-                  Drone Pilot Training
+                  Remote Pilot Training
                 </h3>
                 <p className="font-light text-gray-600 mb-4">
                   Learn to operate drones safely and professionally with our comprehensive training programs. Master flight controls, navigation, and emergency procedures.
@@ -127,10 +127,10 @@ const Home = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-normal text-gray-900 mb-2">
-                  Aerial Photography & Videography
+                  Holiday Drone Program
                 </h3>
                 <p className="font-light text-gray-600 mb-4">
-                  Master aerial photography techniques and capture stunning images from above. Learn composition, lighting, and camera settings for professional results.
+                  Take your aviation journey to the next level with our Holiday Drone Training program. Join our 5-week drone adventure program packed with hands-on training, thrilling flights, innovation and unforgettable experiences.
                 </p>
                 <Link
                   to="/training#photography"
