@@ -11,30 +11,33 @@ const Training = () => {
   const trainingPrograms = [
     {
       id: 'pilot-training',
-      name: 'Drone Pilot Training',
+      name: 'Remote ilot Training',
       description: 'Master the fundamentals of drone operation with our comprehensive pilot training program. Learn flight controls, navigation systems, and emergency procedures from certified instructors.',
       image: droneTrainingImg,
       features: ['Flight Controls', 'Navigation Systems', 'Emergency Procedures', 'Weather Assessment'],
       duration: '40 hours',
-      level: 'Beginner to Intermediate'
+      level: 'Beginner to Intermediate',
+      age: '16+ Years'
     },
     {
       id: 'photography',
-      name: 'Drone Photography',
-      description: 'Capture stunning aerial images with professional photography techniques. Learn composition, lighting, camera settings, and post-processing for breathtaking results.',
+      name: 'Holiday Drone Program',
+      description: 'Start your aviation journey with our Holiday Drone Training program designed for young enthusiasts. This 2-week course offers hands-on experience in drone flying, photography, and basic aerodynamics, providing a solid foundation for future learning.',
       image: dronePhotographyImg,
-      features: ['Aerial Composition', 'Camera Settings', 'Lighting Techniques', 'Post-Processing'],
-      duration: '24 hours',
-      level: 'All Levels'
+      features: ['Introduction to Drones & Aerodynamics', 'Drone Safety & Regulations', 'Basic Flight Training', 'Drone Simulator Flying', 'Aircraft Modelling', 'Plane Spotting', 'Certificate of Participation'],
+      duration: '2 weeks',
+      level: 'Beginner',
+      age: '8-17 Years'
     },
     {
       id: 'videography',
-      name: 'Aerial Videography',
-      description: 'Create cinematic aerial videos with advanced filming techniques. Master smooth movements, storytelling, and professional post-production workflows.',
+      name: 'Advanced Drone Program',
+      description: 'Join our Advanced Holiday Drone Program to elevate your drone skills. This intensive 3-week course covers advanced flight techniques, and drone assembly and innovation projects designed for young enthusiasts eager to push their limits.',
       image: droneVideographyImg,
-      features: ['Cinematic Movements', 'Storytelling', 'Post-Production', 'Color Grading'],
-      duration: '32 hours',
-      level: 'Intermediate to Advanced'
+      features: ['Drone Assembly', 'Drone Design and Programming', 'Drone Filming and photography', 'RC Aircraft Model Building', 'Drone Entrepreneurship & Career paths', 'Flight Challenges & Competitions', 'KCAA RPA Certification'],
+      duration: '3 weeks',
+      level: 'Advanced',
+      age: '8+ Years'
     },
     {
       id: 'assembly',
@@ -98,6 +101,10 @@ const Training = () => {
                 <div className="mb-4">
                   <div className="flex justify-between text-sm text-gray-500 mb-2">
                     <span>Duration: {program.duration}</span>
+                    <span>Age : {program.age}</span>
+
+                  </div>
+                  <div className="flex justify-between text-sm text-gray-500 mb-2">
                     <span>Level: {program.level}</span>
                   </div>
                   <h4 className="text-l font-medium text-gray-900 mb-2">Key Features:</h4>
